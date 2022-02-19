@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: url(../img/fon.png);
+}
+
+.headcontent {
+    width: 1200px;
+    height: 750px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menulabel {
+    width: 100%;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+}
