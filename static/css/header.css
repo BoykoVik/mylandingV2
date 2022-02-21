@@ -49,3 +49,14 @@
     right: 0;
     border-bottom: 3px solid #FFE600;
 }
+
+.mainhead {
+    display: flex;
+}
+
+.linebottom {
+    width:70px; 
+    height:2px;
+    background:#fff;
+    margin: 0 10px 0 10px;
+}
