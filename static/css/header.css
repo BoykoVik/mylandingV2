@@ -53,6 +53,16 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    
+}
+.heahh {
+    position: relative;
+}
+.blur {
+    position: absolute;
+    right: -359px;
+    bottom: 0;
+    filter: blur(4px);
 }
 
 .mainhead h1 {

@@ -5,7 +5,8 @@
 body {
     width: 100%;
     display: flex;
-    background-color: aqua;
+    background-color: rgb(203, 226, 226);
     flex-direction: column;
     align-content: center;
+    align-items: center;
 }
