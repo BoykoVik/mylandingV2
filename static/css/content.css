@@ -45,6 +45,16 @@
     position: absolute;
     left: 5px;
     top: 5px;
+    transition: all 1s linear;
+    -webkit-transition: all 1s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 1s ease-in-out; /** Firefox **/
+    -o-transition: all 1s ease-in-out; /** Opera **/
+}
+
+.cuadafter {
+    left: 50px;
+    top: 10px;
+    font-size: 50px;
 }
 
 .linebottomtask {
@@ -66,7 +76,6 @@
     -webkit-transform: translate(60px, 0);
     -o-transform: translate(60px, 0);
     -moz-transform: translate(60px, 0);
-    cursor: pointer;
 }
 .task h3 {
     margin-top: 20px;
