@@ -6,7 +6,6 @@
     justify-content: space-between;
 }
 .content h2 {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -37,7 +36,6 @@
     position: relative;
 }
 .cuad p {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -60,16 +58,12 @@
     left: -20px;
 }
 .task h3 {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 155.4%;
-    /* identical to box height, or 25px */
-
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #6A6969;
 }
 .servmain {
@@ -80,7 +74,6 @@
     align-items: center;
 }
 .servises {
-    
     width: 1200px;
     display: flex;
     flex-direction: column;
@@ -88,7 +81,6 @@
 }
 .servises h2 {
     margin-top: 20px;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -97,7 +89,6 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
 }
 
@@ -108,7 +99,6 @@
     align-items: center;
 }
 .tech h2 {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;

@@ -27,7 +27,6 @@
 .label {
     width: 120px;
     height: 35px;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -78,7 +77,6 @@
 }
 
 .mainhead p {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -101,20 +99,14 @@
 .addtiket {
     width: 259px;
     height: 49px;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 155.4%;
-    /* identical to box height, or 25px */
-
     letter-spacing: 0.02em;
-
     color: #111111;
-
     background: #FFE600;
     text-decoration: none;
     text-align: center;
     margin-bottom: 20px;
-    
 }
