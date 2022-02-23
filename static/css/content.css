@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.content h2 {
+.content h2, .myworks h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -40,7 +40,6 @@
     font-weight: 600;
     font-size: 30px;
     line-height: 155.4%;
-    /* identical to box height, or 47px */
     letter-spacing: 0.02em;
     color: #FFE600;
     position: absolute;
@@ -56,8 +55,21 @@
     position: absolute;
     bottom: 10px;
     left: -20px;
+    transition: all 1s linear;
+    -webkit-transition: all 1s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 1s ease-in-out; /** Firefox **/
+    -o-transition: all 1s ease-in-out; /** Opera **/
+}
+.linebottomtaskafter {
+    height: 5px;
+    transform: translate(60px, 0);
+    -webkit-transform: translate(60px, 0);
+    -o-transform: translate(60px, 0);
+    -moz-transform: translate(60px, 0);
+    cursor: pointer;
 }
 .task h3 {
+    margin-top: 20px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -66,20 +78,20 @@
     letter-spacing: 0.02em;
     color: #6A6969;
 }
-.servmain {
+.servmain, .calcmain {
     background: #282828;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.servises {
+.servises, .calc{
     width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.servises h2 {
+.servises h2, .calc h2 {
     margin-top: 20px;
     font-style: normal;
     font-weight: bold;
@@ -105,4 +117,11 @@
     line-height: 61px;
     letter-spacing: 0.02em;
     color: #282828;
+}
+
+.myworks {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

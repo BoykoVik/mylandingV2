@@ -8,14 +8,11 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 155.4%;
-    /* identical to box height, or 25px */
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-decoration: none;
     text-align: center;
-
     margin: 0 10px 0 10px;
-
     transition:all .33s linear;
     -webkit-transition:all .33s linear;
 }
@@ -82,4 +79,15 @@ a:nth-child(1) ~ .line{
 
   a:nth-child(5):hover {
     color:#20b320;
+  }
+
+  .sticky {
+    background-color: #404040;
+    transition: background 1s ease;
+    z-index: 2;
+  }
+
+  .stickyt {
+    background-color: none;
+    transition: background 1s ease;
   }

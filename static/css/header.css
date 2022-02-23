@@ -16,13 +16,21 @@
     align-items: flex-start;
     justify-content: space-between;
 }
-
-.menulabel {
+.menubig {
     width: 100%;
-    margin-top: 20px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    align-items: center;
+}
+.menulabel {
+    width: 1200px;
     display: flex;
     color: aliceblue;
     justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .label {
     width: 120px;
@@ -32,6 +40,7 @@
     font-size: 18px;
     line-height: 155.4%;
     position: relative;
+    padding-left: 10px;
 }
 .cuadro {
     position: absolute;
@@ -49,10 +58,10 @@
 }
 
 .mainhead {
+    margin-top: 130px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
 }
 .heahh {
     position: relative;

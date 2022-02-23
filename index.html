@@ -10,6 +10,7 @@
     <link href="static/css/content.css" rel="stylesheet">
     <link href="static/css/servises.css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
@@ -17,8 +18,8 @@
 </head>
 <body>
     
-    <header class="header">
-        <div class="headcontent">
+    <header id="main" class="header">
+        <div id="menulabel" class="menubig">
             <div class="menulabel">
                 <div class="label">
                     <div class="cuadro">
@@ -26,14 +27,18 @@
                     <div class="myname">Бойко В.</div>
                 </div>
                 <div class="nav">
-                    <a href="#" >Главная</a>
-                    <a href="#" >Услуги</a>
+                    <a href="#main" >Главная</a>
+                    <a href="#serv" >Услуги</a>
                     <a href="#" >Работы</a>
                     <a href="#" >Калькулятор</a>
                     <a href="#" >Контакты</a>
                     <div class="line"></div>
                 </div>
             </div>
+        </div>
+        <div class="headcontent">
+           
+           
             <div class="mainhead">
                 <div class="heahh">
                     <h1>Разработка сайтов под ключ</h1>
@@ -43,7 +48,7 @@
                 <div class="linebottom"></div>
                 <p class="headabout">Я разрабатываю, кодирую и продаю десятки сайтов в год. Это дает мне уникальный взгляд на внутреннюю работу и стратегии многих компаний. Я вижу, что работает, а что нет. Я применю этот опыт в вашей организации, чтобы дать вам конкурентное преимущество.</p>
             </div>
-            <button href="" class="addtiket">Оставить заявку</button>
+            <button href="#" class="addtiket">Оставить заявку</button>
         </div>
     </header>
 
@@ -58,53 +63,54 @@
                     <p>1</p>
                     <div class="linebottomtask"></div>
                 </div>
-                <h3>продвижение товаров и услуг</h3>
+                <h3>Продвижение товаров и услуг</h3>
             </div>
 
             <div class="task">
                 <div class="cuad">
-                    <p>1</p>
+                    <p>2</p>
                     <div class="linebottomtask"></div>
                 </div>
-                <h3>продвижение товаров и услуг</h3>
+                <h3>Повышение лояльности существующих клиентов</h3>
             </div>
 
             <div class="task">
                 <div class="cuad">
-                    <p>1</p>
+                    <p>3</p>
                     <div class="linebottomtask"></div>
                 </div>
-                <h3>продвижение товаров и услуг</h3>
+                <h3>Предоставление подробной информации об осуществляемой деятельности</h3>
             </div>
 
             <div class="task">
                 <div class="cuad">
-                    <p>1</p>
+                    <p>4</p>
                     <div class="linebottomtask"></div>
                 </div>
-                <h3>продвижение товаров и услуг</h3>
+                <h3>Привлечение новых клиентов и партнеров</h3>
             </div>
 
             <div class="task">
                 <div class="cuad">
-                    <p>1</p>
+                    <p>5</p>
                     <div class="linebottomtask"></div>
                 </div>
-                <h3>продвижение товаров и услуг</h3>
+                <h3>Расширение географии оказания услуг и продаж</h3>
             </div>
 
             <div class="task">
                 <div class="cuad">
-                    <p>1</p>
+                    <p>6</p>
                     <div class="linebottomtask"></div>
                 </div>
-                <h3>продвижение товаров и услуг</h3>
+                <h3>Привлечение новых каналов сбыта</h3>
             </div>
         </div>
 
-
     </div>
-    <div class="servmain">
+
+    <div id="serv" class="servmain">
+        <br>
         <div class="servises">
             <h2>Услуги</h2>
             <div class="linebottom"></div>
@@ -182,9 +188,23 @@
     <div class="tech">
         <h2>Используемые технологии</h2>
         <div class="linebottom"></div>
-        
+
     </div>
 
+    <div class="myworks">
+        <h2>Мои работы</h2>
+        <div class="linebottom"></div>
+
+    </div>
+
+    <div class="calcmain">
+
+        <div class="calc">
+            <h2>Калькулятор</h2>
+            <div class="linebottom"></div>
+        </div>
+
+    </div>
 
    
     
@@ -192,4 +212,5 @@
 
 
 </body>
+<script src="static/js/menu.js"></script>
 </html>
