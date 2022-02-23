@@ -12,9 +12,7 @@
     font-size: 50px;
     line-height: 155.4%;
     /* identical to box height, or 78px */
-
     letter-spacing: 0.02em;
-
     color: #282828;
 }
 
@@ -74,4 +72,33 @@
 
     color: #6A6969;
 }
+.servmain {
+    background: #282828;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servises {
+    
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servises h2 {
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
