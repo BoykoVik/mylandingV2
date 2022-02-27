@@ -127,7 +127,7 @@
     margin-bottom: 50px;
 }
 .otherservnames {
-    width: 400px;
+    min-width: 400px;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -140,6 +140,7 @@
     justify-content: flex-end;
     margin-bottom: 20px;
     align-items: center;
+    
 }
 .othersername p {
     font-family: Montserrat;
@@ -151,6 +152,7 @@
     letter-spacing: 0.02em;
     color: #FFFFFF;
     cursor: pointer;
+    padding-left: 5px;
 }
 
 .othersername div {
@@ -198,7 +200,7 @@
     margin-bottom: 20px;
 }
 .otherservabout p {
-    width: 100%;
+    width: 90%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -208,5 +210,6 @@
     color: #FFFFFF;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 

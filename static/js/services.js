@@ -22,3 +22,28 @@ function showstep(i){
 
 }
 showstep(0);
+
+
+var arr2 = $(".othersername");
+var ser2 = $(".otherservabout");
+//добавил онклики
+for (i=0; i < arr2.length; i++){
+  var k = arr2[i]
+  $(k).attr('onClick', 'showstep2(' + i + ')');
+}
+
+function showstep2(i){
+    $(".otherservabout").css('display', 'none');
+    $(".otherservabout").css('opacity', '0');
+    for (m=0; m < arr2.length; m++){
+        arr2[m].classList.remove("otheractive");
+      }
+
+  var a = $(".otherservabout")[i];
+  $(a).css('display', 'block');
+  $(a).animate({opacity: '1'}, 'slow');
+
+  arr2[i].classList.add("otheractive");
+
+}
+showstep2(0);
