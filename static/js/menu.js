@@ -18,10 +18,11 @@ function myFunction() {
   }
   //console.log(document.documentElement.scrollTop);
 
+//для ЗАДАЧ (2 блок)
     if ($(window).scrollTop() > 350 && $(window).scrollTop() < 1000) {
         for (i=0; i < tasks.length; i++){
-            tasks[i].classList.add("linebottomtaskafter");
             nums[i].classList.add("cuadafter");
+            tasks[i].classList.add("linebottomtaskafter");
         }
     }
     if ($(window).scrollTop() > 1000 || $(window).scrollTop() < 350) {
