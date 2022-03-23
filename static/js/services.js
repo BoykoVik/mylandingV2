@@ -13,17 +13,13 @@ function showstep(i){
         arr[m].classList.remove("active");
         
       }
-
   var a = $(".servabout")[i];
   $(a).css('display', 'block');
   $(a).animate({opacity: '1'}, 'slow');
-
   arr[i].classList.add("active");
-
 }
 showstep(0);
-
-
+/////////////////////////////////////////2 блок
 var arr2 = $(".othersername");
 var ser2 = $(".otherservabout");
 //добавил онклики
@@ -38,12 +34,9 @@ function showstep2(i){
     for (m=0; m < arr2.length; m++){
         arr2[m].classList.remove("otheractive");
       }
-
   var a = $(".otherservabout")[i];
   $(a).css('display', 'block');
   $(a).animate({opacity: '1'}, 'slow');
-
   arr2[i].classList.add("otheractive");
-
 }
 showstep2(0);

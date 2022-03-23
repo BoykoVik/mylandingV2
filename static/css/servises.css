@@ -2,7 +2,9 @@
     width: 100%;
     display: flex;
     margin-bottom: 50px;
+    align-items: center;
 }
+
 .servnames {
     min-width: 400px;
     display: flex;
@@ -125,6 +127,7 @@
     width: 100%;
     display: flex;
     margin-bottom: 50px;
+    align-items: center;
 }
 .otherservnames {
     min-width: 400px;
