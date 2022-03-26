@@ -1,0 +1,11 @@
+html+
+css+
+js+
+jquery+
+psql+
+ajax+
+django+
+bash+
+qt/c++
+git+
+python+

@@ -138,14 +138,15 @@
 }
 
 .techs {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     overflow: hidden;
 }
 .techno img{
-    width: 100px;
+    width: 150px;
+    padding: 20px;
 }
