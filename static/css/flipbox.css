@@ -43,7 +43,7 @@
   
   /* Стиль задней стороны */
   .flip-card-back {
-    background-color: #ffffff
+    background-color: #ffffff;
     color: rgb(27, 27, 26);
     transform: rotateY(180deg);
   }
