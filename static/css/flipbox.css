@@ -37,13 +37,13 @@
   
   /* Стиль лицевой стороны (запасной вариант, если изображение отсутствует) */
   .flip-card-front {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     color: black;
   }
   
   /* Стиль задней стороны */
   .flip-card-back {
-    background-color: rgb(191, 198, 206);
+    background-color: #ffffff
     color: rgb(27, 27, 26);
     transform: rotateY(180deg);
   }
