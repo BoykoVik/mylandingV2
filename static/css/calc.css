@@ -83,3 +83,8 @@
     letter-spacing: 0.02em;
     color: #FFE600;
 }
+
+.result {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

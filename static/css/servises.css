@@ -1,5 +1,6 @@
 .servcontainer {
     width: 80%;
+    max-width: 1000px;
     display: flex;
     margin-bottom: 50px;
     align-items: center;

@@ -58,7 +58,7 @@
 }
 
 .mainhead {
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 130px;
     display: flex;
     flex-direction: column;
@@ -119,5 +119,5 @@
     text-decoration: none;
     text-align: center;
     margin-bottom: 20px;
-    margin-left: 10%;
+    margin-left: 20%;
 }
