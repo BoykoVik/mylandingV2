@@ -1,5 +1,5 @@
 var arr = $(".sername");
-var ser = $(".servabout");
+
 //добавил онклики
 for (i=0; i < arr.length; i++){
   var k = arr[i]
@@ -20,7 +20,7 @@ function showstep(i){
 showstep(0);
 /////////////////////////////////////////2 блок
 var arr2 = $(".othersername");
-var ser2 = $(".otherservabout");
+
 //добавил онклики
 for (i=0; i < arr2.length; i++){
   var k = arr2[i]
