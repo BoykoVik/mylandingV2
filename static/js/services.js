@@ -11,7 +11,6 @@ function showstep(i){
     $(".servabout").css('opacity', '0');
     for (m=0; m < arr.length; m++){
         arr[m].classList.remove("active");
-        
       }
   var a = $(".servabout")[i];
   $(a).css('display', 'block');
