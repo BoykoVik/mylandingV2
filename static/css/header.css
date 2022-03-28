@@ -100,10 +100,10 @@
 }
 
 .linebottom {
-    width: 165px; 
+    width: 180px; 
     height: 3px;
     background:#FFE600;
-    margin: 20px 0 20px 0;
+    margin: 10px 0 50px 0;
 }
 
 .addtiket {
