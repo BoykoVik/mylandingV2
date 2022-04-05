@@ -119,8 +119,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 275ms ease;
 }
 
-a.addtiket:hover {
-    color: #FFFFFF;
+.addtiket:hover {
+    background-color: rgba(80, 73, 66, 0.8);
 }
