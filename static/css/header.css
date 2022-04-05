@@ -26,6 +26,7 @@
 }
 .menulabel {
     width: 90%;
+    max-width: 1100px;
     display: flex;
     color: aliceblue;
     justify-content: space-between;
@@ -68,9 +69,6 @@
     position: relative;
 }
 .blur {
-    position: absolute;
-    right: -359px;
-    bottom: 0;
     filter: blur(4px);
 }
 
@@ -82,7 +80,7 @@
     line-height: 82px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    width: 655px;
+    width: 775px;
 }
 
 .mainhead p {
