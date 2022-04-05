@@ -324,3 +324,25 @@
 
     color: #FFFFFF;
 }
+.element-animationleft {
+    /* Скрыть элемент в начальном состоянии */
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+.element-animationleft.element-show {
+    opacity: 1;
+    transition: all 1s;
+    transform: translateX(0px);
+}
+.element-animationright.element-show {
+    opacity: 1;
+    transition: all 1s;
+    transform: translateX(0px);
+}
+
+.element-animationright {
+    /* Скрыть элемент в начальном состоянии */
+    opacity: 0;
+    transform: translateX(100px);
+  }
