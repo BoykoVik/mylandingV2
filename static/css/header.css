@@ -116,4 +116,11 @@
     text-align: center;
     margin-bottom: 20px;
     margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.addtiket:hover {
+    color: #FFFFFF;
 }
