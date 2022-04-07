@@ -1,18 +1,12 @@
 // Получить модель
-var modal = $("myModal");
+var modal = document.getElementById("myModal");
 
 // Получите изображение и вставьте его внутрь модального - используйте его текст "alt" в качестве подписи
-var img = $("myImg");
-var modalImg = $("img01");
+var img = document.getElementById("myImg");
 
-for (i=0; i < cal.length; i++){
-    var b = img[i];
-    b.onclick = function click(){
-        //modal[i].style.display = "block";
-        alert("1");
-      }
+img.onclick = function(){
+  modal.style.display = "block";
 }
-
 
 // Получить элемент <span>, который закрывает модальный
 var span = document.getElementsByClassName("close")[0];
@@ -23,4 +17,3 @@ span.onclick = function() {
 }
 
 
-//переход на jquery
