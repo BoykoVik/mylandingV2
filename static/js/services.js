@@ -39,3 +39,4 @@ function showstep2(i){
   arr2[i].classList.add("otheractive");
 }
 showstep2(0);
+

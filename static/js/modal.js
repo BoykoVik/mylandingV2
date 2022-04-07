@@ -18,4 +18,4 @@ function showmodal(i){
 function closemodal(i){
     var a = $(".modal")[i];
     $(a).css('display', 'none');
-  }
+}
