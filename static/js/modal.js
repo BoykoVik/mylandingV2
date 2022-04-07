@@ -1,19 +1,21 @@
-// Получить модель
-var modal = document.getElementById("myModal");
+var modal = $(".modal");//модальное окно
+var blockwork = $(".workitem");//блок с онкликом
+var spanclose = $(".close");//спан с закрытием
+console.log(blockwork);
 
-// Получите изображение и вставьте его внутрь модального - используйте его текст "alt" в качестве подписи
-var img = document.getElementById("myImg");
-
-img.onclick = function(){
-  modal.style.display = "block";
+for (i=0; i < blockwork.length; i++){
+    var k = blockwork[i];
+    $(k).attr('onClick', 'showmodal(' + i + ')');//онклик к блокам на открытие
+    var cls = spanclose[i];
+    $(cls).attr('onClick', 'closemodal(' + i + ')');//онклик спанов на закрытие
 }
-
-// Получить элемент <span>, который закрывает модальный
-var span = document.getElementsByClassName("close")[0];
-
-// Когда пользователь нажимает на <span> (x), закройте модальное окно
-span.onclick = function() {
-  modal.style.display = "none";
+//функция открытия
+function showmodal(i){
+  var a = $(".modal")[i];
+  $(a).css('display', 'block');
 }
-
-
+//функция закрытия
+function closemodal(i){
+    var a = $(".modal")[i];
+    $(a).css('display', 'none');
+  }
