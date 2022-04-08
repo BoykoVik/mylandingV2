@@ -12,6 +12,7 @@
     line-height: 155.4%;
     letter-spacing: 0.02em;
     color: #282828;
+    text-align: center;
 }
 
 .tasks {
@@ -222,6 +223,8 @@
     align-items: center;
     max-width: 1100px;
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .contactblock {
     display: flex;
