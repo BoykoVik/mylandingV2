@@ -90,7 +90,7 @@
     line-height: 155.4%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    width: 578px;
+    max-width: 578px;
 }
 
 .linebottom {

@@ -2,4 +2,92 @@
     .menulabel {
       display: none;
     }
+    h2 {
+        margin-top: 10px;
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .mainhead {
+        margin: 10px;
+        align-items: center;
+    }
+
+    .headcontent {
+        height: 400px;
+        align-items: center;
+    }
+
+    .mainhead h1 {
+        margin-top: 10px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .blur {
+        filter: blur(2px);
+    }
+    .mainhead p {
+        font-size: 16px;
+    }
+
+    .linebottom {
+        margin: 5px 0 5px 0;
+    }
+    .addtiket {
+        margin: auto;
+    }
+    .tasks {
+        width: 100%;
+    }
+    .task {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+        width: 200px;
+    }
+    .task h3 {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .servcontainer {
+        width: 100%;
+        flex-direction: column;
+    }
+    .sername {
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    .servnames {
+        min-width: 0;
+    }
+    .sername p {
+        line-height: 110%;
+        text-align: left;
+    }
+    .round {
+        display: none;
+    }
+    .leftround {
+        display: block;
+        margin-right: 5px;
+    }
+
+    .servabout {
+        width: 95%;
+        margin-left: 0px;
+    }
+    .servsabout {
+        width: 95%;
+        margin-left: 0px;
+    }
+    .servabout p {
+        width: 95%;
+        font-family: Montserrat;
+        font-size: 16px;
+        line-height: 110%;
+    }
+    .content, .servmain, .sdvig, .tech, .myworks, .calcmain, .contact, .footer {
+        display: none;
+    }
   }

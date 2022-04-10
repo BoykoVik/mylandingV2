@@ -116,7 +116,6 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    line-height: 61px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -214,5 +213,8 @@
     margin: 0;
     padding: 0;
     text-align: center;
+}
+.leftround {
+    display: none;
 }
 

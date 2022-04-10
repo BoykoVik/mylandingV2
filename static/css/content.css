@@ -106,7 +106,6 @@
 .servises h2, .calc h2 {
     font-style: normal;
     font-weight: bold;
-    line-height: 61px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -123,7 +122,6 @@
 .tech h2 {
     font-style: normal;
     font-weight: bold;
-    line-height: 61px;
     letter-spacing: 0.02em;
     color: #282828;
 }
