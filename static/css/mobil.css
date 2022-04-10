@@ -92,6 +92,7 @@
     }
     .otherservs {
         width: 100%;
+        position: static;
     }
     .otherservcontainer {
         width: 100%;
@@ -122,7 +123,62 @@
         padding: 0 5px 0 5px;
         margin-bottom: 10px;
     }
-    .tech, .myworks, .calcmain, .contact, .footer {
+    .sdvig {
+        height: auto;
+        position: relative;
+    }
+    .flip-card {
+        width: 50px;
+        height: 50px;
+    }
+    .flip-card-front img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .worksblock {
+        width: 95%;
+    }
+    .calcnames {
+        min-width: 0;
+        width: 95%;
+    }
+    .rcal {
+        display: block;
+        width: 10px;
+        height: 10px;
+    }
+    .cost, .calcname, .calcserv {
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+    }
+    .calcname {
+        margin-bottom: 10px;
+    }
+    .calcname div {
+        min-width: 10px;
+        min-height: 10px;
+        border-radius: 20px;
+        margin-right: 5px;
+    }
+    .partneritem {
+        flex-direction: column;
+    }
+    .partnername p {
+        transform: rotate(0deg);
+        font-size: 20px;
+    }
+    .partnerabout {
+        margin-bottom: 15px;
+    }
+    .partnername {
+        display: flex;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+    .contact, .footer {
         display: none;
     }
   }
