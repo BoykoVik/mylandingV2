@@ -1,6 +1,6 @@
 .servcontainer {
-    width: 80%;
-    max-width: 1000px;
+    width: 95%;
+    max-width: 1200px;
     display: flex;
     margin-bottom: 50px;
     align-items: center;
@@ -104,7 +104,7 @@
 
 .otherservs {
     width: 90%;
-    max-width: 1000px;
+    max-width: 1200px;
     display: flex;
     background-color: #515151;
     flex-direction: column;
@@ -116,7 +116,6 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
     line-height: 61px;
     display: flex;
     align-items: center;
@@ -131,7 +130,7 @@
     align-items: center;
 }
 .otherservnames {
-    min-width: 400px;
+    min-width: 45%;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
