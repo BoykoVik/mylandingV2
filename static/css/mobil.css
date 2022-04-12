@@ -178,7 +178,7 @@
         justify-content: center;
         margin: 5px;
     }
-    .contact, .footer {
-        display: none;
+    .footer-container {
+        flex-wrap: wrap;
     }
   }
